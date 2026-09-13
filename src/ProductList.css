@@ -1,0 +1,134 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 40px;
+  background-color: #4CAF50;
+  color: #ffffff;
+}
+
+.navbar-brand a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.navbar-brand h3 {
+  margin: 0;
+  font-size: 1.6rem;
+}
+
+.navbar-brand i {
+  font-size: 0.9rem;
+}
+
+.navbar-links {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.navbar-links a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 1.1rem;
+}
+
+.navbar-links a:hover {
+  text-decoration: underline;
+}
+
+.cart-link {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.cart-icon {
+  font-size: 1.6rem;
+}
+
+.cart-count {
+  background-color: #ffffff;
+  color: #4CAF50;
+  border-radius: 50%;
+  padding: 2px 9px;
+  font-weight: bold;
+}
+
+.product-grid {
+  padding: 30px 40px;
+}
+
+.category-section {
+  margin-bottom: 50px;
+}
+
+.category-title {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 25px;
+  color: #2e7d32;
+}
+
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.product-card {
+  width: 260px;
+  background-color: #ffffff;
+  border: 1px solid #dddddd;
+  border-radius: 10px;
+  padding: 15px;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.product-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.product-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin: 12px 0 6px;
+}
+
+.product-description {
+  font-size: 0.9rem;
+  color: #555555;
+  min-height: 45px;
+}
+
+.product-price {
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: #2e7d32;
+  margin: 10px 0;
+}
+
+.product-button {
+  width: 100%;
+  padding: 10px;
+  font-size: 1rem;
+  color: #ffffff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.product-button:hover {
+  background-color: #3d8b40;
+}
+
+.product-button.added-to-cart {
+  background-color: #9e9e9e;
+  cursor: not-allowed;
+}

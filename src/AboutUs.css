@@ -1,0 +1,24 @@
+.about-us-container {
+  padding: 40px;
+  max-width: 900px;
+  margin: 0 auto;
+  color: #ffffff;
+  text-align: center;
+}
+
+.about-us-heading {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.about-us-description {
+  font-size: 1.4rem;
+  font-style: italic;
+  margin-bottom: 25px;
+}
+
+.about-us-content {
+  font-size: 1.05rem;
+  line-height: 1.7;
+  margin-bottom: 18px;
+}
